@@ -93,6 +93,66 @@ a {
             ENTÊTE DE PAGE
 ****************************************/
 
+header {
+    background-color: #011627;
+    padding: 5px 0 0 0;
+    margin: 0 0 30px 0;
+    border: #011627;
+    border-bottom: #2ec4b6; /*MARCHE PAS MARCHE PAS MARCHE PAS MARCHE PAS MARCHE PAS MARCHE PAS MARCHE PAS MARCHE PAS*/
+}
+
+header .logo {
+    text-align: center;
+    margin: 0;
+}
+
+header .nom {
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    margin: 15px 0;
+    line-height: 0.8;
+}
+
+header .metier {
+    color: #e71d36;
+    margin: -5px 0 0;
+}
+
+/***************************************
+              nav
+****************************************/
+
+header nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav a,
+header nav a:visited {
+    color: #fdfffc;
+    padding: 15px 10px;
+    font-weight: 800;
+}
+
+header nav a.actif,
+header nav a:hover {
+    color: #2ec4b6;
+}
+
+header nav a[href="index.html"] {
+    display: none;
+}
 
 
 
@@ -113,7 +173,28 @@ a {
 /***************************************
            PAGE INFORMATIONS
 ****************************************/
+.page-infos .profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+
 .page-infos h1 {
-    background: deepskyblue;
+    text-align: center;
+}
+
+.page-infos li {
+    display: inline;
+}
+
+.page-infos li a {
+
+}
+
+.page-infos footer ul li img {
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
 }
 
