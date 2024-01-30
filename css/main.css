@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfffc ;
+    color: #011627;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+
+
+header {
+    background-color: #011627;
+    padding: 5px 0 0 0;
+    margin: 0 0 30px 0;
+    border-bottom: #2ec4b6;
+}
+
+header .nom {
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    margin: 15px 0;
+    line-height: 0.8;
+}
+
+header .metier {
+    color: #e71d36;
+    margin: -5px 0 0; /*-5px haut 0 g/d 0 bas */
+}
+
+header nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav a,
+header nav a:visited {
+    color: #fdfffc;
+    padding: 15px 10px;
+    font-weight: 800;
+}
+
+header nav a.actif,
+header nav a:hover {
+    color: #2ec4b6;
+}
+
+header nav a[href="index.html"] {
+    display: none;
+}
+
+
+h1, h2, h3, h4, h5, h6,
+.logo {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0 0 .75em;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #e71d36;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+/***********************
+****** PAGE INFOS ******
+************************/
+
+.page-infos .profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+}
+
+.page-infos h1 {
+    text-align: center;
+}
+
