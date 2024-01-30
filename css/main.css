@@ -1,84 +1,83 @@
+/***************************************
+                FONTS
+****************************************/
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-italic - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* open-sans-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* changa-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/changa-one-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+/***************************************
+           Règles générales
+****************************************/
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #fdfffc ;
-    color: #011627;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
     font-weight: 400;
+    font-size: 100%;
     line-height: 1.4;
+    color: #011627;
+    background-color: #fdfffc;
 }
 
-
-
-header {
-    background-color: #011627;
-    padding: 5px 0 0 0;
-    margin: 0 0 30px 0;
-    border-bottom: #2ec4b6;
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
 
-header .nom {
-    color: #2ec4b6;
-    font-size: 1.75rem;
-    margin: 15px 0;
-    line-height: 0.8;
-}
-
-header .metier {
-    color: #e71d36;
-    margin: -5px 0 0; /*-5px haut 0 g/d 0 bas */
-}
-
-header nav {
-    text-align: center;
-    padding: 10px 0;
-    margin: 20px 0 0;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0 10px;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline-block;
-}
-
-header nav a,
-header nav a:visited {
-    color: #fdfffc;
-    padding: 15px 10px;
-    font-weight: 800;
-}
-
-header nav a.actif,
-header nav a:hover {
-    color: #2ec4b6;
-}
-
-header nav a[href="index.html"] {
-    display: none;
-}
-
-
-h1, h2, h3, h4, h5, h6,
-.logo {
-    font-family: 'Changa One', cursive;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Changa One', sans-serif;
     font-weight: 400;
 }
 
 h1 {
     font-size: 2rem;
-    margin: 0 0 1em;
+    margin-bottom: 1em;
 }
 
 h2 {
     font-size: 1.5rem;
-    margin: 0 0 .75em;
+    margin-bottom: .75em;
 }
 
 p {
@@ -90,24 +89,31 @@ a {
     text-decoration: none;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
+/***************************************
+            ENTÊTE DE PAGE
+****************************************/
+
+
+
+
+/***************************************
+              PAGE ACCUEIL
+****************************************/
+.page-accueil h1 {
+    background: red;
 }
 
-/***********************
-****** PAGE INFOS ******
-************************/
-
-.page-infos .profile-photo {
-    display: block;
-    max-width: 150px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
+/***************************************
+              PAGE CONTACT
+****************************************/
+.page-contact h1 {
+    background: yellow;
 }
 
+/***************************************
+           PAGE INFORMATIONS
+****************************************/
 .page-infos h1 {
-    text-align: center;
+    background: deepskyblue;
 }
 
